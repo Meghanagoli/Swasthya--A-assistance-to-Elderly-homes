@@ -50,8 +50,8 @@ To get started with the project, follow these steps:
 6. **Start the application**:
    - For the backend:
      ```bash
-     cd backend
-     npm start
+     cd server
+     nodemon server.js
      ```
    - For the frontend:
      ```bash
