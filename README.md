@@ -35,7 +35,7 @@ To get started with the project, follow these steps:
 3. **Install dependencies for the backend**:
    ```bash
    cd backend
-   npm install
+   nodemon server.js
    ```
 
 4. **Install dependencies for the frontend**:
