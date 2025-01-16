@@ -6,7 +6,6 @@ const app = express();
 const PORT = 9999;
 const path = require('path');
 const PDFDocument = require('pdfkit');
-const fs = require('fs');
 const drSchema = require('./schemas/druser');
 const elderSchema = require("./schemas/elduser");
 const registerwardSchema=require("./schemas/registerward");
