@@ -1,7 +1,7 @@
 
 # Swasthya - A Assistance to Elderly Homes
 
-**Swasthya** is a project aimed at providing technological support to elderly homes. The system focuses on improving the daily lives of elderly residents by offering tools for health tracking, reminders for medications, and connecting them with caregivers, medical professionals. Through this project, we aim to ensure that elderly individuals living in care homes receive better attention, personalized services, and social interaction.
+**Swasthya** is a project aimed at providing technological support to elderly homes. The system focuses on improving the daily lives of elderly residents by offering tools for health tracking, reminders for medications, and connecting them with caregivers and medical professionals. Through this project, we aim to ensure that elderly individuals living in care homes receive better attention, personalized services, and social interaction.
 
 ## Features
 
@@ -9,14 +9,15 @@
 - **Medication Reminders**: Set reminders for when to take medications to ensure timely doses.
 - **Doctor & Caregiver Communication**: An interface to allow communication between doctors, caregivers, and the elderly.
 - **Reports & Analytics**: Generate reports on health statistics and overall well-being for caregivers and medical staff.
-- **User Authentication**: Secure login system for different roles (caregivers,elder homes, medical staff).
+- **User Authentication**: Secure login system for different roles (caregivers, elderly homes, medical staff).
 
 ## Tech Stack
 
 - **Frontend**: React.js (for the dynamic user interface)
 - **Backend**: Node.js with Express.js (for handling API requests)
 - **Database**: MongoDB (for storing user and health data)
-- **Machine Learning**: Used for health predictions, detecting potential health issues.
+- **Machine Learning**: Used for health predictions and detecting potential health issues.
+
 ## Installation
 
 To get started with the project, follow these steps:
@@ -43,7 +44,9 @@ To get started with the project, follow these steps:
    npm install
    ```
 
-5. 
+5. **Download datasets for Machine Learning predictions**:
+   Download the datasets from [this link](https://drive.google.com/drive/folders/1DddizlVTkNtr5uER_sf_9rHllG9NcYeO?usp=drive_link) and place them in the `ML` folder.
+
 6. **Start the application**:
    - For the backend:
      ```bash
@@ -55,13 +58,18 @@ To get started with the project, follow these steps:
      cd frontend
      npm start
      ```
+   - For the Machine Learning:
+     ```bash
+     cd ML
+     python main.py
+     ```
 
 ## Usage
 
-1. **Login/Register**: Users can register and log in as caregivers, family members, or medical staff to access their dashboards.
+1. **Login/Register**: Users can register and log in as caregivers (elderly home) or medical staff to access their dashboards.
 2. **Health Monitoring**: Users can track health metrics and monitor progress over time.
 3. **Medication Reminders**: Set up notifications for medication schedules.
-4. **Communication**: Engage with family members and caregivers through the built-in chat system.
+4. **Communication**: Engage with doctors and caregivers through the built-in video system.
 
 ## Contributing
 
@@ -73,10 +81,3 @@ If you'd like to contribute to this project, follow these steps:
 4. Push to your branch (`git push origin feature-branch`).
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this template based on your project's specific features and requirements. Let me know if you need any adjustments!
